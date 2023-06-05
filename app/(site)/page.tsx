@@ -52,7 +52,7 @@ export default async function Home() {
         <div className="flex justify-between items-center">
           <h1 className="text-white text-2xl font-semibold">Newest songs</h1>
         </div>
-        <PageContent songs={songs}/>
+        <PageContent songs={songs} />
       </div>
     </div>
   );
